@@ -1,0 +1,44 @@
+body{
+    background-color: black;
+    color: white;
+}
+#buttonstart{
+    background-color: lightgreen;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px black;
+    width: 200px;
+    height: 50px;
+    font-size: 1.5rem;
+    border-radius: 5%;
+}
+button:hover{
+    filter: brightness(1.5);
+}
+#testinfo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#btndetails{
+   position: absolute;
+   top: 0;
+   right: 0;
+   margin-top: 20px;
+   width: 150px;
+   height: 40px;
+   background-color: yellowgreen;
+   font-family: 'Courier New', Courier, monospace;
+   border-radius: 5%;
+
+}
+#btnclose{
+    background-color: grey;
+    font-family: 'Courier New', Courier, monospace;
+    width: 100px;
+    height: 40px;
+    border-radius: 5%;
+}
+#average{
+    color: aqua;
+}
